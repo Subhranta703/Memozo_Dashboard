@@ -1,0 +1,18 @@
+.navbar {
+  background: #c5f396;
+  padding: 15px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.logo {
+  font-size: 20px;
+  font-weight: bold;
+}
+.btn-booking {
+  background: #4CAF50;
+  padding: 10px 15px;
+  border: none;
+  cursor: pointer;
+  color: white;
+}

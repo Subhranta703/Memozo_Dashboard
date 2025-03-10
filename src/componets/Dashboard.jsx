@@ -2,25 +2,26 @@ import React from "react";
 import Navbar from "./Navbar";
 import Sidebar from "./Sidebar";
 import Earnings from "./Earnings";
-import TodayWork from "./TodayWork";
-import BookingRequests from "./BookingRequests";
-import Footer from "./Footer";
+import BookingSummary from "./BookingSummary";
+import Schedule from "./Schedule";
+//import Notifications from "./Notifications";
+import "../style/dashboard.css";
 
 const Dashboard = () => {
   return (
-    <div className="flex flex-col min-h-screen bg-gray-100">
+    <div className="dashboard-container">
       <Navbar />
-      <div className="flex flex-1">
+      <div className="dashboard-content">
         <Sidebar />
-        <main className="flex-1 p-6">
-          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
+        <main className="dashboard-main">
+          <div className="stats-container">
             <Earnings />
-            <TodayWork />
-            <BookingRequests />
+            <BookingSummary />
           </div>
+          <Schedule />
+          {/* <Notifications /> */}
         </main>
       </div>
-      <Footer />
     </div>
   );
 };

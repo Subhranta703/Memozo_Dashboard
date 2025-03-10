@@ -1,11 +1,13 @@
 import React from "react";
+import "../style/navbar.css";
+
 
 const Navbar = () => {
   return (
-    <nav className="bg-primary text-white p-4 flex justify-between items-center">
-      <h1 className="text-xl font-bold">Photographer's Dashboard</h1>
-      <div className="space-x-4">
-        <button className="px-4 py-2 bg-secondary rounded-md">Create a New Listing</button>
+    <nav className="navbar">
+      <h1 className="logo">Vexa Click</h1>
+      <div className="nav-items">
+        <button className="btn-booking">+ New Booking</button>
       </div>
     </nav>
   );

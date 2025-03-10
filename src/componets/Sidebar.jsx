@@ -1,13 +1,19 @@
 import React from "react";
+import "../style/sidebar.css";
 
 const Sidebar = () => {
   return (
-    <aside className="w-64 bg-primary text-white p-6 hidden md:block">
-      <ul className="space-y-4">
-        <li className="hover:text-secondary cursor-pointer">Bookings</li>
-        <li className="hover:text-secondary cursor-pointer">Portfolio</li>
-        <li className="hover:text-secondary cursor-pointer">Earnings</li>
-        <li className="hover:text-secondary cursor-pointer">Teams</li>
+    <aside className="sidebar">
+      <ul>
+        <li>HOME</li>
+        <li>BOOKING</li>
+        <li>EARNING</li>
+        <li>PORTFOLIO</li>
+        <li>TEAMS</li>
+        <li>Album Manage</li>
+        <li>Client & Chart</li>
+        <li>Profile</li>
+        <li>Business</li>
       </ul>
     </aside>
   );

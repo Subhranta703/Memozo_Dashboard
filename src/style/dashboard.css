@@ -1,0 +1,40 @@
+.dashboard-container {
+  display: flex;
+  flex-direction: column;
+}
+.dashboard-content {
+  display: flex;
+}
+.dashboard-main {
+  flex: 1;
+  padding: 20px;
+}
+.stats-container {
+  display: flex;
+  gap: 20px;
+}
+.earnings-card, .booking-card {
+  background: #fff;
+  padding: 20px;
+  border-radius: 8px;
+  width: 50%;
+}
+.growth {
+  color: green;
+}
+.schedule {
+  margin-top: 20px;
+}
+.schedule-item {
+  display: flex;
+  justify-content: space-between;
+  background: #333;
+  color: white;
+  padding: 10px;
+  margin-top: 5px;
+}
+.notifications {
+  background: #222;
+  padding: 15px;
+  color: white;
+}
